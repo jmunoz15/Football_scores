@@ -33,6 +33,41 @@
         During the off season, fake data will be added to the app.
     </string>
     <string name="widget_text">This is a widget probably.</string>
-    <string name="api_key"></string>
+    <string name="api_key">7af927b49ab641d0b23d32cbdb8a1f59</string>
     <string name="dummy_data">{\"timeFrameStart\":\"2015-06-18\",\"timeFrameEnd\":\"2015-06-19\",\"count\":1,\"fixtures\":[{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}}]}</string>
+
+    <string name="past_param">p2</string>
+    <string name="next_param">n2</string>
+    <string name="base_url">http://api.football-data.org/alpha/fixtures</string>
+    <string name="time_frame">timeFrame</string>
+    <string name="get_method">GET</string>
+    <string name="auth_token">X-Auth-Token</string>
+    <string name="stream_error">Error Closing Stream</string>
+    <string name="fixtures">fixtures</string>
+    <string name="server_error">Could not connect to server.</string>
+    <string name="bundesliga1">394</string>
+    <string name="bundesliga2">395</string>
+    <string name="premier">398</string>
+    <string name="primera_division">399</string>
+    <string name="serie_a">401</string>
+    <string name="season_link">http://api.football-data.org/alpha/soccerseasons/</string>
+    <string name="match_link">http://api.football-data.org/alpha/fixtures/</string>
+    <string name="links">_links</string>
+    <string name="soccer_season">soccerseason</string>
+    <string name="self">self</string>
+    <string name="match_date">date</string>
+    <string name="home_team">homeTeamName</string>
+    <string name="away_team">awayTeamName</string>
+    <string name="result">result</string>
+    <string name="home_goals">goalsHomeTeam</string>
+    <string name="away_goals">goalsAwayTeam</string>
+    <string name="matchday">matchday</string>
+    <string name="href">href</string>
+    <string name="t">T</string>
+    <string name="z">Z</string>
+    <string name="match_date_format">yyyy-MM-ddHH:mm:ss</string>
+    <string name="utc_timezone">UTC</string>
+    <string name="new_date_format">yyyy-MM-dd:HH:mm</string>
+    <string name="colon">:</string>
+    <string name="real_date_format">yyyy-MM-dd</string>
 </resources>
