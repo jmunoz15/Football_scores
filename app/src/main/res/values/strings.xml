@@ -86,4 +86,6 @@
     <string name="group_stages">Group Stages, Matchday : 6</string>
     <string name="generic_matchday">Matchday : </string>
 
+    <string name="today_widget_title">Football scores today</string>
+
 </resources>

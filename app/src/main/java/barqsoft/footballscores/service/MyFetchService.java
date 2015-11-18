@@ -28,6 +28,7 @@ import barqsoft.footballscores.R;
 
 public class MyFetchService extends IntentService {
     public static final String LOG_TAG = MyFetchService.class.getCanonicalName();
+    public static final String ACTION_UPDATED = "barqsoft.footballscores.ACTION_DATA_UPDATED";
 
     public MyFetchService() {
         super(LOG_TAG);
@@ -89,6 +90,8 @@ public class MyFetchService extends IntentService {
                     return;
                 }
                 processJSONdata(JSON_data, getApplicationContext(), true);
+                Intent dataUpdatedIntent = new Intent(ACTION_UPDATED);
+                sendBroadcast(dataUpdatedIntent);
 
             } else {
                 Log.d(LOG_TAG, getString(R.string.server_error));
