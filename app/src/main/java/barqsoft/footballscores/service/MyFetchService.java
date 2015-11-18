@@ -89,6 +89,7 @@ public class MyFetchService extends IntentService {
                     return;
                 }
                 processJSONdata(JSON_data, getApplicationContext(), true);
+
             } else {
                 Log.d(LOG_TAG, getString(R.string.server_error));
             }
