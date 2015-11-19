@@ -49,7 +49,7 @@ public class Utilies {
 
     public static String getScores(int home_goals, int awaygoals) {
         if (home_goals < 0 || awaygoals < 0) {
-            return " - ";
+            return "-";
         } else {
             return String.valueOf(home_goals) + " - " + String.valueOf(awaygoals);
         }

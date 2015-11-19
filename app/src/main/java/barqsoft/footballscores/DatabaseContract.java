@@ -26,8 +26,6 @@ public class DatabaseContract {
         public static final String MATCH_ID = "match_id";
         public static final String MATCH_DAY = "match_day";
 
-        //public static Uri SCORES_CONTENT_URI = BASE_CONTENT_URI.buildUpon().appendPath(PATH)
-        //.build();
 
         //Types
         public static final String CONTENT_TYPE =
