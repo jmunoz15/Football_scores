@@ -37,8 +37,8 @@
 
     
     
-    <string name="past_param" translatable="false">p6</string>
-    <string name="next_param" translatable="false">n6</string>
+    <string name="past_param" translatable="false">p2</string>
+    <string name="next_param" translatable="false">n2</string>
     <string name="base_url" translatable="false">http://api.football-data.org/alpha/fixtures</string>
     <string name="time_frame" translatable="false">timeFrame</string>
     <string name="get_method" translatable="false">GET</string>
